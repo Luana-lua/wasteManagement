@@ -1,0 +1,25 @@
+1xx - Informativos
+100: Continue - O cliente deve continuar com a solicitação.
+101: Switching Protocols - O servidor aceita mudar para outro protocolo.
+
+2xx - Sucesso
+200: OK - A solicitação foi bem-sucedida.
+201: Created - Usado quando um novo recurso é criado com sucesso (por exemplo, um registro adicionado ao banco de dados).
+204: No Content - A requisição foi bem-sucedida, mas não há conteúdo para retornar.
+
+3xx - Redirecionamento
+301: Moved Permanently - O recurso foi movido para outra URL permanentemente.
+302: Found - Redirecionamento temporário para outra URL.
+304: Not Modified - Indica que o conteúdo não foi modificado desde a última requisição (usado para cache).
+
+4xx - Erro do Cliente
+400: Bad Request - Solicitação inválida ou malformada.
+401: Unauthorized - O cliente precisa de autenticação.
+403: Forbidden - O cliente não tem permissão para acessar o recurso.
+404: Not Found - O recurso solicitado não foi encontrado no servidor.
+
+5xx - Erro do Servidor
+500: Internal Server Error - Ocorreu um erro no servidor.
+503: Service Unavailable - O servidor está indisponível temporariamente.
+
+//C:\Users\luana\AppData\Local\Programs\Git
